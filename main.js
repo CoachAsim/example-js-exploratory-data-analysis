@@ -83,6 +83,7 @@ const showMenu = async () => {
     console.log("2. View a visualization of cloud cover");
     console.log("3. Exit");
     
+    console.log("Note: When you type it may double type automatically (Ex: 11) don't worry about that :)");
     const { choice } = await prompt.get(['choice']);
     return choice;
 }
