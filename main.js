@@ -5,48 +5,7 @@ const Chart = require('cli-chart');       // Helps us create charts in the conso
 const prompt = require('prompt');         // Helps us get user input
 
 /*
-  IMPORTANT CONCEPT !!!READ!!!:
-  Remember, there are several ways to create the same functionality when we are building software. An example of that is loading data from CSV files : )
-  This example uses the csv-parser package/library. The type of data we load it as is an array of objects. It may be different if you use another package.
-
-  1. What is an Array?
-     - An array is like a list of items
-     - Each item has a position number (index) starting from 0
-     - In our weather data, we have an array of 14 days of weather information
-     - Example: To get the 3rd day's data, we use: weatherData[2]
-       (remember, we start counting from 0!)
-
-  2. What is an Object?
-     - An object is like a container that holds related information with labels
-     - In our weather data, each day is an object with properties like:
-         date: the date of the weather reading
-         cloud_cover: how cloudy it was
-         sunshine: amount of sunshine
-         global_radiation: radiation level
-         max_temp: highest temperature that day
-         mean_temp: average temperature
-         min_temp: lowest temperature
-         precipitation: rainfall amount
-         pressure: atmospheric pressure
-         snow_depth: depth of snow
-
-  3. Array of Objects
-     - Our weather data is an array (list) of 14 day-objects
-     - Example of one day's data might look like:
-         {
-           date: "20240101",
-           cloud_cover: "6.5",
-           sunshine: "2.3",
-           global_radiation: "123.45",
-           max_temp: "12.3",
-           mean_temp: "10.1",
-           min_temp: "8.4",
-           precipitation: "0.2",
-           pressure: "1013.2",
-           snow_depth: "0"
-         }
-     - To get data: weatherData[0].global_radiation would give us the
-       radiation level for the first day
+  IMPORTANT!!!! READ THE README FIRST!!!!
 */
 
 // This function loads data from our CSV file
