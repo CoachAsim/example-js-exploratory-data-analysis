@@ -76,7 +76,7 @@ weatherData[0].global_radiation
 To run this project:
 1. Make sure you have Node.js installed
 2. Install the required packages using `npm install`
-3. Run the program using `node index.js`
+3. Run the program using `node main.js`
 
 ## 💡 Need Help?
 
